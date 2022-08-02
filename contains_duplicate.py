@@ -4,6 +4,7 @@ def containsDuplicate(nums: list[int]) -> bool:
     for i in range(len(nums)-1):
         if nums[i] == nums[i+1]:
             return True
+    return False
 
 # Second Solution
 def containsDuplicate2(nums: list[int]) -> bool:
